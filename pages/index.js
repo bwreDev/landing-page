@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import ContactForm from '../components/ContactForm';
 import Hero from '../components/Hero';
 import Nav from '../components/Nav';
 
@@ -13,9 +14,10 @@ export default function Home() {
         />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <main className='w-full h-full bg-zinc-900'>
+      <main className='max-w-7xl mx-auto'>
         <Nav />
         <Hero />
+        <ContactForm />
       </main>
     </div>
   );
