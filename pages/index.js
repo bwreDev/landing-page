@@ -5,7 +5,7 @@ import Nav from '../components/Nav';
 
 export default function Home() {
   return (
-    <div>
+    <div className='h-screen bg-zinc-200'>
       <Head>
         <title>eversage | home</title>
         <meta
